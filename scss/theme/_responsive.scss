@@ -1,0 +1,404 @@
+@media(max-width: 575.98px){
+	.container{
+		max-width: 520px;
+	}
+	.skills{
+		background-image: url("../img/2/features_background_mobile.png");
+		min-height: 1200px;
+	}
+}
+@media (max-width: 767.98px){
+	.showcase{
+		.carousel{
+			width: 100%;
+			padding-bottom: 175px;
+			.details{
+				text-align: left;
+				width: 80%;
+				left: 10%;
+				bottom: -15vh;
+				p, .read-more {
+					font-size: 0.9rem;
+					font-weight: normal;
+				}
+			}
+			.carousel-inner{
+				.carousel-item{
+					.desktop{
+						display: none;
+					}
+					.mobile{
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+			.carousel-caption{
+				right: 15%;
+				left: 15%;
+				bottom: 50vh;
+				h5{
+					font-size: 1.4rem;
+				}
+				p{
+					font-size: 0.6rem;
+				}
+			}
+
+		}			
+	}
+	
+	.careers {
+		.description {
+			.title {
+				min-height: 0px;
+				
+				h2 {
+					font-size: 1.5rem;
+				}
+				h5 {
+					font-size: 1.2rem;
+					margin-bottom: 0px;
+				}
+			}
+		}
+		
+		.card-wrapper {
+			.card{
+				padding: 50px;
+				.name{
+					margin-top: 40px;
+					h3 {
+						font-size: 1.5rem !important;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991.98px){
+	.navbar-collapse.show{
+		height: 100vh;
+	    .menu{
+			display: none;
+	    }		
+	}
+	.header{
+		.container{
+			max-width: 85%;
+		}
+		.header-text{
+			padding-top: 100px;
+			h1{
+				font-size: 2rem;
+			}
+			p{
+				font-size: 1rem;
+				font-weight: normal;
+			}
+		}
+		.header-btns{
+			.btn {
+				padding: 15px 26px;
+			}
+			.btn-blue{
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.skills{
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+		z-index: 0;
+		.overview{
+			text-align: center;
+			padding: 100px 0px;
+			h2{
+				font-size: 1.5rem;
+			}
+			.more{
+				display: none;
+			}
+			.description{
+				font-size: 1.2rem;
+				font-weight: normal;
+			}
+		}
+		.features{
+			display: none;
+		}
+		.features-carousel{
+			display: block;
+			.feature{
+				text-align: center;
+				min-height: 430px;
+				padding: 0px 20px;
+				.icon{
+					margin: 100px 0px 24px 0px;
+				}
+				h3{
+					font-size: 1.5rem;
+				}
+				p{
+					font-size: 1.2rem;
+					font-weight: normal;
+				}
+			}
+			.carousel-indicators{
+				li{
+					background-color: rgba(255, 255, 255, 0.3);
+					width: 10px;
+					height: 10px;
+					border-radius: 5px;
+					margin: 0px 10px;
+					&.active{
+						background-color: $white;
+					}
+				}
+			}
+		}
+	}
+	.showcase{
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+		padding-top: 50px;
+		text-align: center;
+		.overview{
+			h2{
+				font-size: 2rem;
+			}
+			h5{
+				font-size: 1.2rem;
+			}
+		}
+		hr{
+			width: 100%;
+		}
+		.carousel{
+			.carousel-navigation{
+				&.desktop{
+					display: none;
+				}
+				&.mobile{
+					display: block;
+						li{
+							background-color: rgba(134, 142, 156, 0.2);
+							border-radius: 5px;
+							width: 10px;
+							height: 10px;
+							margin: 10px 12px;
+							&.active{
+								background-color: $steel;
+							}
+						}
+				}
+			}
+		}
+		
+	}
+	.careers{
+
+		.card-wrapper{
+			.card{
+				margin-left: 0px;
+				margin-bottom: 64px;
+				.name{
+					h3{
+						font-size: 2em;
+					}
+				}
+				.job{
+					h6{
+						font-size: 1em;
+					}						
+				}
+			}
+		}
+	}
+	.reach-out{
+		.description{
+			padding-left: 7.5%;
+			padding-right: 7.5%;
+			h2{
+				font-size: 1.5rem;
+			}
+			p{
+				font-size: 1rem;
+				font-weight: normal;
+			}
+			h6{
+				font-size: 1.2rem;
+			}
+			.companies{
+				.company{
+					margin-left: 12px;
+					margin-right: 12px;
+				}
+			}
+		}
+		.contact-form{
+			.contact-us{
+				padding-left: 7.5%;
+				padding-right: 7.5%;
+				.btn-circular{
+					margin-bottom: 30px;
+				}
+				.form-control{
+					font-size: 1.5em;	
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1199.98px){
+	.careers{
+			.description{
+			padding-left: 7.5%;
+			padding-right: 7.5%;
+			text-align: center;
+			margin-bottom: 50px;
+			.contact{
+				padding: 30px 27px;
+				a{
+					font-size: 0.7rem;
+					.img-fluid{
+						margin-right: 20px;
+						width: 8%;
+					}
+				}
+			}
+		}
+	}		
+}
+@media (min-width: 576px) and (max-width: 991.98px){
+	.showcase{
+		margin-top: -200px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+	.showcase{
+		.carousel{
+			.carousel-caption{
+				text-align: right;
+				left: 40%;
+				bottom: 9vh;
+				h5{
+					font-size: 1em;
+				}
+				p{
+					font-size: 0.675em;
+				}
+			}
+			.details{
+				width: 200px;
+				font-size: 0.65em;
+				text-align: left;
+				left: 95%;
+				bottom: 9vh;
+				.read-more{
+					font-size: 1em;
+				}
+			}
+			.carousel-navigation.mobile{
+				.carousel-indicators{
+					bottom: -10vh;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.container{
+		max-width: 85%;
+	}
+
+	.showcase{
+		margin-top: -200px;
+		.carousel{
+			.carousel-navigation.desktop{
+				left: 120%;
+				top: 43%;
+			}
+			.carousel-caption{
+				h5{
+					font-size: 1.5em;
+				}
+				p{
+					font-size: 1em;
+				}
+			}
+			.details{
+				left: 85%;
+				bottom: 53vh;
+			}
+		}
+	}
+	.careers{
+		.description{
+			text-align: center;
+			.contact{
+				margin-top: -90px;
+				a{
+					font-size: 0.95em;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1599px){
+	.header{
+		.header-btns{
+			.btn-circular{
+				padding: 28px 30px;
+			}
+		}
+	}
+	
+	.footer {
+		.logo{
+			padding-top: 64px;
+			padding-left: 96px;
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+	.container{
+		max-width: 70%;
+	}
+	.showcase{
+		margin-top: -150px;
+		.carousel{
+			.carousel-navigation.desktop{
+				left: 120%;
+				top: 43%;
+			}
+			.carousel-caption{
+				left: 60%;
+				h5{
+					font-size: 2em;
+				}
+				p{
+					font-size: 1.25em;
+				}
+			}
+			.details{
+				left: 83%;
+				bottom: 45vh;
+			}
+		}
+	}
+	.careers{
+		.description{
+			.contact{
+				margin-top: -35px;
+				padding: 30px;
+				a{
+					font-size: 0.95em;
+					.img-fluid{
+						max-width: 30px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,170 @@
+@media(max-width: 991.98px){
+	
+	
+	.footer{
+		text-align: center;
+		.logo{
+			padding: 50px 0px;
+		}
+	}
+	.links{
+		padding-top: 50px;
+		a{
+			display: block;
+			padding: 8px 0px;
+		}
+	}
+	.navbar-transparent{
+		.navbar-brand, .navbar-toggler{
+			z-index: 6;
+		}
+	}
+	.navbar-collapse.show{
+		visibility: visible;
+	    opacity: 1;
+	    height: 75vh;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 100px;
+	    transition: ease 0.04s all;
+	    text-align: center;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	    z-index: 5;
+	    margin-top: -100px;
+	    padding-top: 120px;
+	    background-color: rgba(55, 57, 129, 0.95);
+	    .navbar-nav{
+	    	.navbar-item{
+		    	padding: 12px;
+	    	}
+	    }
+	}
+}
+@media(max-width:992px) {
+
+    #navigation {
+	    &.fixed{
+			position: fixed;
+			width: 100%;
+			z-index: 5;
+		}
+        .navbar-toggler {
+	        z-index: 100;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            right: 0px;
+            outline: none;
+
+            .navicon {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: inherit;
+                height: 20px;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+
+                .bar {
+	                background: $white;
+                    display: block;
+                    width: 97%;
+                    height: 2px;
+                }
+            }
+
+            &.triggered .navicon {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: inherit;
+                @include translate(0.1em, 0.5em);
+
+                .bar:nth-child(3) {
+                    position: absolute;
+                    width: 18px;
+                    @include translateY(100%);
+                    @include rotate(-45deg);
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+
+                .bar:nth-child(1) {
+                    position: absolute;
+                    width: 18px;
+                    @include translateY(-100%);
+                    @include rotate(45deg);
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+
+                .bar:nth-child(2) {
+                    width: 18px;
+                    opacity: 0;
+                    @include translateX(10em);
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+            }
+
+            .navicon {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: inherit;
+                height: 20px;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+
+                .bar:nth-child(3) {
+                    display: block;
+                    position: relative;
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+
+                .bar:nth-child(1) {
+                    @include rotate(0deg);
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+
+                .bar:nth-child(2) {
+                    @include rotate(0deg);
+                    -webkit-transition: ease-in-out 0.3s all;
+                    transition: ease-in-out 0.3s all;
+                }
+            }
+        }
+   
+
+    }
+
+
+/*
+        .title, .sub-title, .description{
+            text-align:center;
+        }
+*/
+        wbr {
+        display: block;
+        width: 100%;
+        height: 1px;
+        clear: both;
+    }
+}

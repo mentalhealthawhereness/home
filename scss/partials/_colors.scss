@@ -1,0 +1,98 @@
+/*=============================
+  Theme 5
+==============================*/
+/* Color palette */
+:root {
+  --carnation: #ff6d96;
+  --blueberry: #373981;
+  --light-blueberry: #4749a3;
+  --very-light-blueberry: #5b5ec0;
+  --dark-blueberry: #24254b;
+  --white: #ffffff;
+  --violet: #8b5df2;
+  --very-light-pink: #fcefe8;
+  --light-khaki: #f2d7ab;
+  --silver: #c6cbd3;
+  --orangish: #fe824c;
+  --pig-pink: #e97a99;
+  --light-peach: #fac9b6;
+  --steel: #868e9c;
+  --soft-blue: #6772e5;
+  --silver-two: #dadce1;
+  --faded-orange: #f1815f;
+  --blueberry-two: #6845a0;
+  --royal: #0732a7;
+  --black: #000000;
+  --pale-grey: #f8f9fc;
+  --white: #ffffff;
+  --black-60: #{rgba(0, 0, 0, 0.6)};
+  --dodger-blue: #5f8cff;
+   --silver-three: #{rgb(224, 226, 229)};
+  --silver-three-30: #{rgba(224, 226, 229, 0.3)};
+  --lightish-green: #78ee85;
+  --azure: #1297ff;
+  --dark-blue-grey: #203152;
+  --butterscotch-25: #{rgba(253, 180, 77, 0.25)};
+  --butterscotch--50: #{rgba(253, 180, 77, 0.5)};
+  --butterscotch: #fdb44d;
+  --azure-25: #{rgba(18, 151, 255, 0.25)};
+  --azure-50: #{rgba(18, 151, 255, 0.5)};
+  --lightish-green-25: #{gba(113, 232, 140, 0.25)};
+  --lightish-green-two: #71e88c;
+  --steel-30: #{rgba(134, 142, 156, 0.3)};
+  --pale-grey-50: #{rgba(233, 237, 244, 0.5)};
+  --cloudy-blue-50: #{rgba(187, 195, 207, 0.5)};
+  --bright-cyan: #45d4ff;
+  --ice-blue: #ecf3ff;
+  --dark-blue-grey-two: #1f2549;
+  --dark-purple: #0E184D;
+}
+
+
+
+$carnation: #ff6d96;
+$blueberry: #373981;
+$very-light-pink: #fcefe8;
+$light-khaki: #f2d7ab;
+$silver: #c6cbd3;
+$orangish: #fe824c;
+$pig-pink: #e97a99;
+$light-peach: #fac9b6;
+$steel: #868e9c;
+$soft-blue: #6772e5;
+$silver-two: #dadce1;
+$faded-orange: #f1815f;
+$blueberry-two: #6845a0;
+$royal: #0732a7;
+$black: #000000;
+$pale-grey: #f8f9fc;
+$white: #ffffff;
+$black-60: rgba(0, 0, 0, 0.6);
+$dodger-blue: #5f8cff;
+$silver-three: rgb(224, 226, 229);
+$silver-three-30: rgba(224, 226, 229, 0.3);
+$lightish-green: #78ee85;
+$azure: #1297ff;
+$dark-blue-grey: #203152;
+$butterscotch-25: rgba(253, 180, 77, 0.25);
+$butterscotch--50: rgba(253, 180, 77, 0.5);
+$butterscotch: #fdb44d;
+$azure-25: rgba(18, 151, 255, 0.25);
+$azure-50: rgba(18, 151, 255, 0.5);
+$lightish-green-25: rgba(113, 232, 140, 0.25);
+$lightish-green-two: #71e88c;
+$steel-30: rgba(134, 142, 156, 0.3);
+$pale-grey-50: rgba(233, 237, 244, 0.5);
+$cloudy-blue-50: rgba(187, 195, 207, 0.5);
+$bright-cyan: #45d4ff;
+$ice-blue: #ecf3ff;
+$dark-blue-grey-two: #1f2549;
+$light-blueberry: #4749a3;
+$very-light-blueberry: #5b5ec0;
+$dark-blueberry: #24254b;
+$white: #ffffff;
+$violet: #8b5df2;
+$dark-purple: #0E184D;
+$another-blue: #DBDFF2;
+$card-text-blue: #3590F9;
+$card-text-grey: #777B92;

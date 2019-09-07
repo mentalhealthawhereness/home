@@ -1,0 +1,25 @@
+@import "partials/colors.scss";
+@import "partials/mixins";
+@import "partials/keyframes";
+@import "partials/type";
+@import "partials/switch";
+
+html, body{
+  width: 100%;
+  font-size: 100%;
+  overflow-x: hidden !important;
+}
+body{
+  color: $white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.navbar-transparent{ 
+	background: transparent;
+	border-bottom: 1px solid transparent;
+	box-shadow: none;
+}

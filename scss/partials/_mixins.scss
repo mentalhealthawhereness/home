@@ -1,0 +1,373 @@
+@mixin rotate($deg) {
+    transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+}
+
+@mixin translateX($x) {
+    -webkit-transform: translateX($x);
+    transform: translateX($x);
+}
+
+@mixin translateY($y) {
+    -webkit-transform: translateY($y);
+    transform: translateY($y);
+}
+
+@mixin translate($x, $y) {
+    -webkit-transform: translate($x, $y);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translate($x, $y);
+}
+
+@mixin translate-important($x, $y) {
+    -webkit-transform: translate($x, $y) !important;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translate($x, $y) !important;
+}
+
+:root {
+    font-size: 16px;
+}
+
+
+
+
+/*=============================
+Theme 5 Typography
+==============================*/
+
+@mixin Text-Style-1 {
+    box-size: content-box;
+    font-family: "Abril Fatface", 'sans-serif';
+    letter-spacing: 0.125rem;
+    margin: 0;
+    color: $blueberry;
+    font-size: 3em;
+
+    @media(min-width: 50em) {
+        font-size: (17.39130434782609/2.4899868877777)+vw;
+    }
+}
+
+@mixin Text-Style-2 {
+    box-size: content-box;
+    font-family: "Abril Fatface", 'sans-serif';
+    width: 100%;
+    letter-spacing: 0.125rem;
+    color: $blueberry;
+    font-size: 1.6em;
+
+    @media(min-width: 50em) {
+        font-size: (17.39130434782609/(2.4899868877777*2))+vw;
+    }
+}
+
+@mixin Text-Style-3 {
+    box-size: content-box;
+    font-family: "Abril Fatface", 'sans-serif'; // font-size: 3.75em;
+    letter-spacing: 0.125rem;
+    color: $blueberry;
+    font-size: 2em;
+}
+
+@mixin Text-Style-6 {
+    box-size: content-box;
+    font-family: "Abril Fatface", 'sans-serif';
+    line-height: 1.5em;
+    letter-spacing: 0.0625rem;
+    color: $blueberry;
+    font-size: 1.2em;
+
+    @media(min-width: 50em) {
+        font-size: 2.5vw;
+    }
+}
+
+@mixin Text-Style-7 {
+    box-size: content-box;
+    font-family: "Rubik", 'sans-serif';
+    font-size: 1em !important;
+    font-weight: 300;
+    line-height: 1.44em;
+    max-width: 465px;
+    color: $steel;
+}
+
+@mixin Text-Style {
+    box-size: content-box;
+    font-family: "Rubik", 'sans-serif';
+    font-size: 1em;
+    font-weight: 300;
+    color: $steel;
+}
+
+@mixin Text-Style-5 {
+    box-size: content-box;
+    font-family: "Rubik", 'sans-serif';
+    font-size: 0.875em;
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+    text-align: left;
+    color: $blueberry;
+}
+
+@mixin Text-Style-4 {
+    box-size: content-box;
+    font-family: "Rubik", 'sans-serif';
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 0.0625rem;
+    color: $blueberry;
+}
+
+@mixin Text-Style-8 {
+    box-size: content-box;
+    font-family: "Rubik", 'sans-serif';
+    font-size: 1.25em;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+    color: $blueberry;
+}
+
+@mixin inner-centered {
+    box-size: content-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+
+
+/*=============================
+Theme 4
+==============================*/
+
+@mixin Text-Style-9 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: normal;
+    letter-spacing: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: $white;
+    font-size: 3em;
+
+    @media(min-width: 50em) {
+        font-size: 6vw;
+    }
+}
+
+@mixin Text-Style-10 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+}
+
+@mixin Text-Style-11 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.875em;
+    font-weight: normal;
+    letter-spacing: normal;
+
+    text-align: center;
+    color: $white;
+}
+
+@mixin Text-Style-12 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.875em;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white;
+}
+
+
+@mixin Text-Style-13 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25em;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: $steel;
+}
+
+@mixin Text-Style-14 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: $steel;
+}
+
+@mixin Text-Style-15 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.13;
+
+    text-align: center;
+    color: $dark-blue-grey;
+}
+
+@mixin Text-Style-16 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white;
+}
+
+@mixin Text-Style-17 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.13;
+
+    text-align: left;
+    color: $white;
+}
+
+@mixin Text-Style-18 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25em;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white;
+}
+
+@mixin Text-Style-19 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 0.84;
+
+    text-align: left;
+    color: $dark-blue-grey;
+}
+
+
+@mixin Text-Style-20 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.875em;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $soft-blue;
+}
+
+@mixin Text-Style-21 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.75em;
+    font-weight: 300;
+    line-height: 1.33;
+    text-align: center;
+    color: $white;
+}
+
+
+@mixin Text-Style-22 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 4em;
+    font-weight: normal;
+    // letter-spacing: 0.125rem;
+    text-align: center;
+    color: $dark-blue-grey;
+}
+
+@mixin Text-Style-23 {
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $steel;
+}
+
+@mixin Text-Style-24 {
+    // h4
+    font-family: 'Montserrat', sans-serif !important;
+
+    font-weight: normal;
+    line-height: 0.84;
+    // letter-spacing: 0.125em;
+    text-align: left;
+    color: $white;
+    font-size: 2em;
+}
+
+@mixin Text-Style-25 {
+    // h5
+    font-family: 'Montserrat', sans-serif !important;
+
+
+    font-weight: 300;
+    line-height: 1.5;
+
+    text-align: left;
+    color: $white;
+
+    font-size: 1.25em;
+}
+
+@mixin Text-Style-26 {
+    // h3
+    font-family: 'Montserrat', sans-serif !important;
+
+    font-weight: normal;
+    // letter-spacing: 0.125rem;
+    text-align: center;
+    color: $white;
+    font-size: 4em;
+}

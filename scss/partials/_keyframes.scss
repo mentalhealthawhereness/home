@@ -1,0 +1,36 @@
+/*
+==============================================
+: KeyFrames
+==============================================
+*/
+
+@keyframes fade-scroll {
+
+
+    from {
+        opacity: 1;
+        @include translateY(-1em);
+    }
+    to {
+        opacity: 0;
+        height: 15px;
+        @include translateY(0em);
+    }
+}
+
+;
+
+@-webkit-keyframes fade-scroll {
+
+    from {
+        opacity: 1;
+        @include translateY(-1em);
+    }
+    to {
+        opacity: 0;
+        height: 20px;
+        @include translateY(0em);
+    }
+}
+
+;
