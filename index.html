@@ -124,44 +124,61 @@
 		</div>
 	</div>
 		<div class="features-carousel">
-			<div id="features-carousel" class="carousel slide">
-			  <ol class="carousel-indicators">
-			    <li data-target="#features-carousel" data-slide-to="0" class="active"></li>
-			    <li data-target="#features-carousel" data-slide-to="1"></li>
-			    <li data-target="#features-carousel" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
+			<div id="features-carousel" class="carousel">
+				<div class="carousel-navigation desktop">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+				</div>
+				<div class="carousel-navigation mobile" class="carousel">
+					<ol class="carousel-indicators">
+					    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				  </div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
 						<div class="feature">
 							<div class="icon">
 								<img class="img-fluid" src="./img/2/feature1_icon.png">
 							</div>
-							<h3>Mapathons</h3>
-							<p>Free offline mental health and mapping workshops</p>
-						</div>	
-			    </div>
-			    <div class="carousel-item">
+								<h3>Mapathons</h3>
+								<p>Free offline mental health and mapping workshops</p>
+							</div>	
+				 		</div>
+			 		<div class="carousel-item">
 						<div class="feature">
 							<div class="icon">
 								<img class="img-fluid" src="./img/2/feature2_icon.png">
 							</div>
-							<h3>MH Maps</h3>
-							<p>More projects for mental health awareness</p>
-					  </div>			    
-					</div>
-			    <div class="carousel-item">
+								<h3>MH Maps</h3>
+								<p>More projects for mental health awareness</p>
+							</div>			    
+						</div>
+				 	<div class="carousel-item">
 						<div class="feature">
 							<div class="icon">
 								<img class="img-fluid" src="./img/2/feature3_icon.png">
 							</div>
-							<h3>List</h3>
-							<p>List of mental health services and resources</p>
-						</div>	
-			    </div>
-			  </div>
+								<h3>List</h3>
+								<p>List of mental health services and resources</p>
+							</div>	
+				 		</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
 	
 	<div class="big-background">
 		
@@ -222,7 +239,7 @@
 					  </a>
 				  </div>
 				  
-				  <div class="carousel-navigation mobile">
+				  <div class="carousel-navigation mobile" class="carousel">
 					   <ol class="carousel-indicators">
 					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
